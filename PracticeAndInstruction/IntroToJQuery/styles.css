@@ -1,0 +1,14 @@
+body {
+    background-color: cornsilk;
+}
+
+.big_title {
+    font-size: 10rem;
+    color: yellowgreen;
+    font-family: cursive;
+}
+
+.margin_50 {
+
+    margin:50px;
+}
