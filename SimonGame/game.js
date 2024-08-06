@@ -42,7 +42,7 @@ function nextSequence() {
     var selector = ".btn." + randomChosenColor;
     $(selector).fadeOut(100).fadeIn(100);
     // var audname = randomChosenColor + ".mp3";
-    // var audio = new Audio('./sounds/' + audname)
+    // var audio = new Audio('./Sound/' + audname)
     // audio.play()
     playSound(randomChosenColor);
 
@@ -50,7 +50,7 @@ function nextSequence() {
 
 function playSound(name) {
     var audname = name + ".mp3";
-    var audio = new Audio('./sounds/' + audname)
+    var audio = new Audio('./Sound/' + audname)
     audio.play()
 }
 
