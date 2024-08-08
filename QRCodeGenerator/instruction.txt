@@ -1,0 +1,5 @@
+To use this project; first please make sure NOde.js is installed on your machine; 
+Then type npm init to initialized the npm
+Then npm install inquirer qr-image
+
+The verison of code uses module based imports, feel freee to use either import method you'd like
